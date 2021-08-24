@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+img {
+    float: left;
+    max-width: 300px;
+    padding: 5px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 40px;
+    background-color: #101010;
+}
+header .logo {
+    color: #fff;
+    font-size: 2rem;
+}
+
+main, footer {
+    padding: 20px 100px;
+}
+.main-navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-navigation a {
+    padding: 25px 15px;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.main-navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
